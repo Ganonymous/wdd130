@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Andrew Leetham WDD130 Downstream Adventures About Us">
+        <meta name="author" content="Andrew Leetham">
+        <title>Downstream Adventures | Contact Us | Andrew Leetham</title>
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.jpeg" alt="Company Logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <section class="info">
+                <h2>Company Information</h2>
+                <p>Address: 314 Phony St. Nowhere, WA 12345</p>
+                <p>Phone: 1 &#40;360&#41; 867 - 5309</p>
+                <p>Email: DownstreamAdventures@notanemail.com</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15948.203082999507!2d-119.40098705540332!3d46.64628784691942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1684642399488!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="gallery">
+                <h2>Meet out Team!</h2>
+                <figure>
+                    <img src="../images/profile.jpg" alt="A photo of the founder, Andrew Leetham">
+                    <figcaption>Andrew Leetham, Founder and CEO</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/joe-shmoe.jpg" alt="A photo of the head guide, Joe Shmoe">
+                    <figcaption>Joe Shmoe, Head Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/jimmy-jones.jpg" alt="A photo of the course inspector, Jimmy Jones">
+                    <figcaption>Jimmy Jones, Course Inspector and Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/sarah-smith.jpg" alt="A photo of our scheduler, Sarah Smith">
+                    <figcaption>Sarah Smith, Receptionist & Scheduler</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/marcus-schmidt.jpg" alt="A photo of our driver, Marcus Schmidt">
+                    <figcaption>Marcus Schmidt, Transport Driver</figcaption>
+                </figure>
+            </section>
+            <h2>Contact Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item">
+                        <label for="fullname">Your Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item form-right">
+                        <label for="useremail">Your Email:</label>
+                        <input type="email" id="useremail" name="useremail">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <div>
+                        <label>Message Purpose</label>
+                        <input type="radio" id="general" name="purpose" value="general">
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="reservation" name="purpose" value="reservation">
+                        <label for="reservation">Reservation Question</label>
+                        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Enter your message here"></textarea>
+                    <div>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                </fieldset>
+                <button type="submit">Send</button>
+            </form>
+        </main>
+        <footer>
+            <p>©️2023 | Downstream Adventures | Andrew Leetham | <a href="images/contact-us-wireframe.png">Wireframe</a></p>
+            <a href="https://www.facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a href="https://www.twitter.com"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram.svg" alt="Instagram"></a>
+        </footer>
+    </body>
+</html>
