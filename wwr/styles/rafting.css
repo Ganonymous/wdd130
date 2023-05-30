@@ -61,8 +61,8 @@ nav a {
     text-decoration: none;
     padding: 1rem;
 }
-  
- nav a:link, nav a:visited {
+
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
   
@@ -89,6 +89,18 @@ div.hero{
     left: 30%;
 }
 
+.hero p{
+    text-align: center;
+}
+
+.hero a{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 article {
     position: absolute;
     top: 25%;
@@ -107,6 +119,32 @@ article img{
     width: 20%;
     border: none;
     margin: 1%;
+}
+
+div.home-lower{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-lower form{
+    grid-area: 1 / 1 / 3 / 2;
+    box-sizing: border-box;
+    padding:  3em .5em;
+    width: 100%;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+}
+
+.home-lower p{
+    text-align: center;
+    padding: 0 .25em;
+}
+
+.home-lower img{
+    max-width: 90%;
+    justify-self: center;
+    align-self: center;
 }
 
 section.info {
@@ -217,8 +255,9 @@ footer p{
 }
 
 footer img{
-    max-width: 100px;
+    max-width: 90%;
     height: auto;
+    margin-top: 5%;
 }
 
 form {
